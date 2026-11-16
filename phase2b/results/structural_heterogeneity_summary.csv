@@ -1,0 +1,9 @@
+transformation,fixed_effect_of_cancer_contrasts,min_cancer_estimate,max_cancer_estimate,n_cancers,note
+A,0.00431362076528251,0.001990876801258602,0.008058607583272634,10,Descriptive summary of the ten adjusted cancer contrasts. The stacked cluster-robust coefficient remains the primary estimate.
+B,0.004401430663467872,0.001803416047024411,0.007570760543202572,10,Descriptive summary of the ten adjusted cancer contrasts. The stacked cluster-robust coefficient remains the primary estimate.
+A,,,,3339,S2 mean 0.0289397; median 0.0188887; trim10 0.0222694; trim20 0.0205181; p90 0.0590838; p95 0.0849196; ge0.02 0.4708
+A,,,,3548,S1 mean 0.0235092; median 0.0169729; trim10 0.0191943; trim20 0.0180042; p90 0.045781; p95 0.0644023; ge0.02 0.410372
+A,,,,775,S0 mean 0.0210789; median 0.0161751; trim10 0.0176711; trim20 0.0168646; p90 0.0409199; p95 0.0563729; ge0.02 0.387097
+B,,,,3327,S2 mean 0.0271803; median 0.0179811; trim10 0.0211319; trim20 0.0195893; p90 0.0541124; p95 0.079457; ge0.02 0.445747
+B,,,,3532,S1 mean 0.0221701; median 0.0162178; trim10 0.0184329; trim20 0.017395; p90 0.0428689; p95 0.0592565; ge0.02 0.399207
+B,,,,772,S0 mean 0.0195197; median 0.0151774; trim10 0.0165669; trim20 0.0157079; p90 0.0404595; p95 0.0543461; ge0.02 0.343264

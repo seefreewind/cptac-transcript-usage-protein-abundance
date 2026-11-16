@@ -1,0 +1,7 @@
+python 3.11.15
+numpy 2.4.6
+scipy.stats module from scipy 1.17.1
+scipy_version 1.17.1
+seed 20261114
+bootstrap_draws 1000
+finished 2026-11-14T12:32:07Z

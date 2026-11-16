@@ -1,0 +1,11 @@
+metric,value,expected,match
+candidate_genes,10795,10795,1
+measured_protein_coding_transcripts,39490,39490,1
+genes_with_uniprot,10742,10742,1
+genes_with_sequence_difference,9608,9608,1
+genes_with_structural_difference,4829,4829,1
+genes_with_principal_pfam,10228,10228,1
+S2,4829,,
+S1,4779,,
+S0,1181,,
+ANNOTATION_UNRESOLVED,6,,

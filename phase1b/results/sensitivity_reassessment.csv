@@ -1,0 +1,105 @@
+sensitivity,cancer,transformation,status,primary_mean,sensitivity_mean,delta_mean,delta_versus_A,delta_versus_B,point_classification_changed,n_genes,assumption_tested
+S1_drop_stored_all_zero,BRCA,A,COMPARED_TO_STORED_MEAN,0.026789684853707574,0.026840481651235332,5.07967975277579e-05,5.07967975277579e-05,,0,5932,Literal A assigns equal weight when every stored isoform value is zero.
+S2_rsem,BRCA,A,COMPARED_TO_STORED_MEAN,0.026789684853707574,0.024152689798687847,-0.002636995055019728,-0.002636995055019728,,0,5988,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,BRCA,A,COMPARED_TO_STORED_MEAN,0.026789684853707574,0.026018766209850195,-0.0007709186438573795,-0.0007709186438573795,,0,5988,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,BRCA,A,NO_GENE_MET_TRIGGER,0.026789684853707574,,,,,0,0,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,BRCA,A,COMPARED_TO_STORED_MEAN,0.026789684853707574,0.02699161663861199,0.0002019317849044147,0.0002019317849044147,,0,5987,Cases with absolute M0 Pearson residual above 4 are removed once.
+S2_rsem,BRCA,B,COMPARED_TO_STORED_MEAN,0.02628626261281396,0.022001034580757736,-0.004285228032056224,,-0.004285228032056224,0,5906,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,BRCA,B,COMPARED_TO_STORED_MEAN,0.02628626261281396,0.02559139415060393,-0.0006948684622100319,,-0.0006948684622100319,0,5906,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,BRCA,B,NO_GENE_MET_TRIGGER,0.02628626261281396,,,,,0,0,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,BRCA,B,COMPARED_TO_STORED_MEAN,0.02628626261281396,0.02649238585296151,0.00020612324014755018,,0.00020612324014755018,0,5905,Cases with absolute M0 Pearson residual above 4 are removed once.
+S3_candidate_C,BRCA,C,SENSITIVITY_ONLY,,0.03376058977043887,,0.0069709049167312985,0.0074743271576249125,0,5906,"Candidate C is the clipped zero-preserving sensitivity, not a third primary inverse."
+S1_drop_stored_all_zero,CCRCC,A,COMPARED_TO_STORED_MEAN,0.021059736116910147,0.021139230936484815,7.949481957466795e-05,7.949481957466795e-05,,0,5384,Literal A assigns equal weight when every stored isoform value is zero.
+S2_rsem,CCRCC,A,COMPARED_TO_STORED_MEAN,0.021059736116910147,0.02163710190704312,0.0005773657901329728,0.0005773657901329728,,0,5415,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,CCRCC,A,COMPARED_TO_STORED_MEAN,0.021059736116910147,0.021164832551482837,0.0001050964345726893,0.0001050964345726893,,0,5415,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,CCRCC,A,NO_GENE_MET_TRIGGER,0.021059736116910147,,,,,0,0,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,CCRCC,A,COMPARED_TO_STORED_MEAN,0.021059736116910147,0.02104384897018926,-1.5887146720888062e-05,-1.5887146720888062e-05,,0,5412,Cases with absolute M0 Pearson residual above 4 are removed once.
+S2_rsem,CCRCC,B,COMPARED_TO_STORED_MEAN,0.02079917612949009,0.020329325749893292,-0.00046985037959679926,,-0.00046985037959679926,0,5375,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,CCRCC,B,COMPARED_TO_STORED_MEAN,0.02079917612949009,0.02092045280487762,0.00012127667538752718,,0.00012127667538752718,0,5375,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,CCRCC,B,NO_GENE_MET_TRIGGER,0.02079917612949009,,,,,0,0,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,CCRCC,B,COMPARED_TO_STORED_MEAN,0.02079917612949009,0.020784220720533694,-1.4955408956397048e-05,,-1.4955408956397048e-05,0,5372,Cases with absolute M0 Pearson residual above 4 are removed once.
+S3_candidate_C,CCRCC,C,SENSITIVITY_ONLY,,0.027214359209623534,,0.006154623092713387,0.006415183080133443,0,5375,"Candidate C is the clipped zero-preserving sensitivity, not a third primary inverse."
+S1_drop_stored_all_zero,COAD,A,COMPARED_TO_STORED_MEAN,0.020390110416656722,0.020480880856269475,9.077043961275288e-05,9.077043961275288e-05,,0,3970,Literal A assigns equal weight when every stored isoform value is zero.
+S2_rsem,COAD,A,COMPARED_TO_STORED_MEAN,0.020390110416656722,0.018531486610272888,-0.001858623806383835,-0.001858623806383835,,1,4010,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,COAD,A,COMPARED_TO_STORED_MEAN,0.020390110416656722,0.020051227568499717,-0.0003388828481570051,-0.0003388828481570051,,0,4010,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,COAD,A,NO_GENE_MET_TRIGGER,0.020390110416656722,,,,,0,0,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,COAD,A,COMPARED_TO_STORED_MEAN,0.020390110416656722,0.0203838582422415,-6.252174415223577e-06,-6.252174415223577e-06,,0,4007,Cases with absolute M0 Pearson residual above 4 are removed once.
+S2_rsem,COAD,B,COMPARED_TO_STORED_MEAN,0.020168125115792433,0.017580159545064852,-0.002587965570727581,,-0.002587965570727581,1,3949,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,COAD,B,COMPARED_TO_STORED_MEAN,0.020168125115792433,0.01974119386418187,-0.00042693125161056417,,-0.00042693125161056417,1,3949,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,COAD,B,NO_GENE_MET_TRIGGER,0.020168125115792433,,,,,0,0,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,COAD,B,COMPARED_TO_STORED_MEAN,0.020168125115792433,0.020257900541665663,8.977542587322931e-05,,8.977542587322931e-05,0,3946,Cases with absolute M0 Pearson residual above 4 are removed once.
+S3_candidate_C,COAD,C,SENSITIVITY_ONLY,,0.02248579511344891,,0.002095684696792187,0.002317669997656476,0,3949,"Candidate C is the clipped zero-preserving sensitivity, not a third primary inverse."
+S1_drop_stored_all_zero,GBM,A,COMPARED_TO_STORED_MEAN,0.028136547512350178,0.02810244332022392,-3.4104192126255956e-05,-3.4104192126255956e-05,,0,6188,Literal A assigns equal weight when every stored isoform value is zero.
+S2_rsem,GBM,A,COMPARED_TO_STORED_MEAN,0.028136547512350178,0.029569215617139655,0.0014326681047894772,0.0014326681047894772,,0,6216,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,GBM,A,COMPARED_TO_STORED_MEAN,0.028136547512350178,0.02710588220322653,-0.0010306653091236469,-0.0010306653091236469,,0,6216,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,GBM,A,NO_GENE_MET_TRIGGER,0.028136547512350178,,,,,0,0,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,GBM,A,COMPARED_TO_STORED_MEAN,0.028136547512350178,0.028036217432961603,-0.00010033007938857474,-0.00010033007938857474,,0,6211,Cases with absolute M0 Pearson residual above 4 are removed once.
+S2_rsem,GBM,B,COMPARED_TO_STORED_MEAN,0.026431343215160812,0.027269465463340158,0.0008381222481793453,,0.0008381222481793453,0,6171,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,GBM,B,COMPARED_TO_STORED_MEAN,0.026431343215160812,0.025358578925494084,-0.0010727642896667285,,-0.0010727642896667285,0,6171,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,GBM,B,NO_GENE_MET_TRIGGER,0.026431343215160812,,,,,0,0,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,GBM,B,COMPARED_TO_STORED_MEAN,0.026431343215160812,0.02637399564516683,-5.734756999398183e-05,,-5.734756999398183e-05,0,6164,Cases with absolute M0 Pearson residual above 4 are removed once.
+S3_candidate_C,GBM,C,SENSITIVITY_ONLY,,0.0338804545700848,,0.005743907057734626,0.007449111354923991,0,6171,"Candidate C is the clipped zero-preserving sensitivity, not a third primary inverse."
+S1_drop_stored_all_zero,HNSCC,A,COMPARED_TO_STORED_MEAN,0.02551038232000007,0.025635668484889396,0.00012528616488932665,0.00012528616488932665,,0,5677,Literal A assigns equal weight when every stored isoform value is zero.
+S2_rsem,HNSCC,A,COMPARED_TO_STORED_MEAN,0.02551038232000007,0.026138537376475836,0.0006281550564757668,0.0006281550564757668,,0,5710,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,HNSCC,A,COMPARED_TO_STORED_MEAN,0.02551038232000007,0.025129795397087124,-0.0003805869229129462,-0.0003805869229129462,,0,5710,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,HNSCC,A,COMPARED_TO_STORED_MEAN,0.02551038232000007,0.0007892323114428932,-0.024721150008557177,-0.024721150008557177,,1,1,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,HNSCC,A,COMPARED_TO_STORED_MEAN,0.02551038232000007,0.02536286973607762,-0.000147512583922451,-0.000147512583922451,,0,5708,Cases with absolute M0 Pearson residual above 4 are removed once.
+S2_rsem,HNSCC,B,COMPARED_TO_STORED_MEAN,0.024238497337561414,0.02292841599470064,-0.0013100813428607756,,-0.0013100813428607756,0,5659,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,HNSCC,B,COMPARED_TO_STORED_MEAN,0.024238497337561414,0.02389941741192991,-0.00033907992563150455,,-0.00033907992563150455,0,5659,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,HNSCC,B,COMPARED_TO_STORED_MEAN,0.024238497337561414,0.0003277315417653115,-0.023910765795796103,,-0.023910765795796103,1,1,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,HNSCC,B,COMPARED_TO_STORED_MEAN,0.024238497337561414,0.024135170459460894,-0.00010332687810052019,,-0.00010332687810052019,0,5657,Cases with absolute M0 Pearson residual above 4 are removed once.
+S3_candidate_C,HNSCC,C,SENSITIVITY_ONLY,,0.03139869054522725,,0.0058883082252271825,0.007160193207665838,0,5659,"Candidate C is the clipped zero-preserving sensitivity, not a third primary inverse."
+S1_drop_stored_all_zero,LSCC,A,COMPARED_TO_STORED_MEAN,0.02807236922364286,0.02805551569102951,-1.685353261334996e-05,-1.685353261334996e-05,,0,6547,Literal A assigns equal weight when every stored isoform value is zero.
+S2_rsem,LSCC,A,COMPARED_TO_STORED_MEAN,0.02807236922364286,0.029932450665966847,0.001860081442323986,0.001860081442323986,,0,6577,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,LSCC,A,COMPARED_TO_STORED_MEAN,0.02807236922364286,0.027140919094956084,-0.0009314501286867768,-0.0009314501286867768,,0,6577,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,LSCC,A,NO_GENE_MET_TRIGGER,0.02807236922364286,,,,,0,0,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,LSCC,A,COMPARED_TO_STORED_MEAN,0.02807236922364286,0.02796687569086982,-0.0001054935327730426,-0.0001054935327730426,,0,6577,Cases with absolute M0 Pearson residual above 4 are removed once.
+S2_rsem,LSCC,B,COMPARED_TO_STORED_MEAN,0.026634101552951883,0.026982628615156524,0.000348527062204642,,0.000348527062204642,0,6528,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,LSCC,B,COMPARED_TO_STORED_MEAN,0.026634101552951883,0.02576962151090823,-0.0008644800420436541,,-0.0008644800420436541,0,6528,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,LSCC,B,NO_GENE_MET_TRIGGER,0.026634101552951883,,,,,0,0,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,LSCC,B,COMPARED_TO_STORED_MEAN,0.026634101552951883,0.026489237488059456,-0.00014486406489242626,,-0.00014486406489242626,0,6528,Cases with absolute M0 Pearson residual above 4 are removed once.
+S3_candidate_C,LSCC,C,SENSITIVITY_ONLY,,0.03772968706147991,,0.009657317837837048,0.011095585508528027,0,6528,"Candidate C is the clipped zero-preserving sensitivity, not a third primary inverse."
+S1_drop_stored_all_zero,LUAD,A,COMPARED_TO_STORED_MEAN,0.022315878600385003,0.02235716522764763,4.1286627262628744e-05,4.1286627262628744e-05,,0,6238,Literal A assigns equal weight when every stored isoform value is zero.
+S2_rsem,LUAD,A,COMPARED_TO_STORED_MEAN,0.022315878600385003,0.02157615169481983,-0.0007397269055651745,-0.0007397269055651745,,0,6263,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,LUAD,A,COMPARED_TO_STORED_MEAN,0.022315878600385003,0.022209636162516325,-0.00010624243786867826,-0.00010624243786867826,,0,6263,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,LUAD,A,NO_GENE_MET_TRIGGER,0.022315878600385003,,,,,0,0,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,LUAD,A,COMPARED_TO_STORED_MEAN,0.022315878600385003,0.022741130958090258,0.00042525235770525527,0.00042525235770525527,,0,6262,Cases with absolute M0 Pearson residual above 4 are removed once.
+S2_rsem,LUAD,B,COMPARED_TO_STORED_MEAN,0.021499224334213182,0.019629209364409723,-0.0018700149698034595,,-0.0018700149698034595,1,6224,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,LUAD,B,COMPARED_TO_STORED_MEAN,0.021499224334213182,0.021475660364879804,-2.3563969333378204e-05,,-2.3563969333378204e-05,0,6224,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,LUAD,B,NO_GENE_MET_TRIGGER,0.021499224334213182,,,,,0,0,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,LUAD,B,COMPARED_TO_STORED_MEAN,0.021499224334213182,0.021794882835585536,0.0002956585013723541,,0.0002956585013723541,0,6223,Cases with absolute M0 Pearson residual above 4 are removed once.
+S3_candidate_C,LUAD,C,SENSITIVITY_ONLY,,0.028665096131855444,,0.006349217531470441,0.007165871797642262,0,6224,"Candidate C is the clipped zero-preserving sensitivity, not a third primary inverse."
+S1_drop_stored_all_zero,OV,A,COMPARED_TO_STORED_MEAN,0.02709222563654358,0.027173987576641793,8.176194009821419e-05,8.176194009821419e-05,,0,4249,Literal A assigns equal weight when every stored isoform value is zero.
+S2_rsem,OV,A,COMPARED_TO_STORED_MEAN,0.02709222563654358,0.023985495014871145,-0.0031067306216724343,-0.0031067306216724343,,0,4317,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,OV,A,COMPARED_TO_STORED_MEAN,0.02709222563654358,0.026361422667141896,-0.0007308029694016831,-0.0007308029694016831,,0,4317,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,OV,A,NO_GENE_MET_TRIGGER,0.02709222563654358,,,,,0,0,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,OV,A,COMPARED_TO_STORED_MEAN,0.02709222563654358,0.02686556018277577,-0.00022666545376780894,-0.00022666545376780894,,0,4313,Cases with absolute M0 Pearson residual above 4 are removed once.
+S2_rsem,OV,B,COMPARED_TO_STORED_MEAN,0.0261759098459285,0.02248821236974838,-0.00368769747618012,,-0.00368769747618012,0,4230,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,OV,B,COMPARED_TO_STORED_MEAN,0.0261759098459285,0.02546097014358803,-0.0007149397023404717,,-0.0007149397023404717,0,4230,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,OV,B,NO_GENE_MET_TRIGGER,0.0261759098459285,,,,,0,0,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,OV,B,COMPARED_TO_STORED_MEAN,0.0261759098459285,0.0260820424938427,-9.386735208580244e-05,,-9.386735208580244e-05,0,4226,Cases with absolute M0 Pearson residual above 4 are removed once.
+S3_candidate_C,OV,C,SENSITIVITY_ONLY,,0.03149033005748184,,0.004398104420938263,0.005314420211553341,0,4230,"Candidate C is the clipped zero-preserving sensitivity, not a third primary inverse."
+S1_drop_stored_all_zero,PDAC,A,COMPARED_TO_STORED_MEAN,0.019736227362895105,0.01976929318746377,3.306582456866561e-05,3.306582456866561e-05,,0,5259,Literal A assigns equal weight when every stored isoform value is zero.
+S2_rsem,PDAC,A,COMPARED_TO_STORED_MEAN,0.019736227362895105,0.02143312286135924,0.001696895498464135,0.001696895498464135,,1,5282,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,PDAC,A,COMPARED_TO_STORED_MEAN,0.019736227362895105,0.019716181544241533,-2.00458186535718e-05,-2.00458186535718e-05,,0,5282,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,PDAC,A,NO_GENE_MET_TRIGGER,0.019736227362895105,,,,,0,0,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,PDAC,A,COMPARED_TO_STORED_MEAN,0.019736227362895105,0.019779607133758578,4.337977086347339e-05,4.337977086347339e-05,,0,5281,Cases with absolute M0 Pearson residual above 4 are removed once.
+S2_rsem,PDAC,B,COMPARED_TO_STORED_MEAN,0.01929293663104235,0.01838591438576731,-0.0009070222452750402,,-0.0009070222452750402,0,5246,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,PDAC,B,COMPARED_TO_STORED_MEAN,0.01929293663104235,0.01933590164442624,4.2965013383890194e-05,,4.2965013383890194e-05,0,5246,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,PDAC,B,NO_GENE_MET_TRIGGER,0.01929293663104235,,,,,0,0,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,PDAC,B,COMPARED_TO_STORED_MEAN,0.01929293663104235,0.019321999839964476,2.906320892212544e-05,,2.906320892212544e-05,0,5244,Cases with absolute M0 Pearson residual above 4 are removed once.
+S3_candidate_C,PDAC,C,SENSITIVITY_ONLY,,0.02389937200497063,,0.004163144642075525,0.00460643537392828,1,5246,"Candidate C is the clipped zero-preserving sensitivity, not a third primary inverse."
+S1_drop_stored_all_zero,UCEC,A,COMPARED_TO_STORED_MEAN,0.029240088142611146,0.029335427468338754,9.533932572760792e-05,9.533932572760792e-05,,0,5511,Literal A assigns equal weight when every stored isoform value is zero.
+S2_rsem,UCEC,A,COMPARED_TO_STORED_MEAN,0.029240088142611146,0.029258444994186613,1.8356851575467015e-05,1.8356851575467015e-05,,0,5549,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,UCEC,A,COMPARED_TO_STORED_MEAN,0.029240088142611146,0.029054401980962923,-0.00018568616164822346,-0.00018568616164822346,,0,5549,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,UCEC,A,NO_GENE_MET_TRIGGER,0.029240088142611146,,,,,0,0,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,UCEC,A,COMPARED_TO_STORED_MEAN,0.029240088142611146,0.029281988250446016,4.190010783487047e-05,4.190010783487047e-05,,0,5543,Cases with absolute M0 Pearson residual above 4 are removed once.
+S2_rsem,UCEC,B,COMPARED_TO_STORED_MEAN,0.02836682291146464,0.026903610978098506,-0.0014632119333661334,,-0.0014632119333661334,0,5498,The gene-expression covariate is the stored RSEM value rather than log2 of the isoform total.
+S5_estimate,UCEC,B,COMPARED_TO_STORED_MEAN,0.02836682291146464,0.028234894894766993,-0.00013192801669764664,,-0.00013192801669764664,0,5498,ESTIMATE replaces WES purity and is not treated as the same measurement.
+S6_cnv_vif_gt_10,UCEC,B,NO_GENE_MET_TRIGGER,0.02836682291146464,,,,,0,0,CNV is dropped only in the stored high-VIF sensitivity.
+S7_m0_pearson_gt_4,UCEC,B,COMPARED_TO_STORED_MEAN,0.02836682291146464,0.028463594069978383,9.677115851374277e-05,,9.677115851374277e-05,0,5492,Cases with absolute M0 Pearson residual above 4 are removed once.
+S3_candidate_C,UCEC,C,SENSITIVITY_ONLY,,0.036978786682833935,,0.007738698540222789,0.008611963771369295,0,5498,"Candidate C is the clipped zero-preserving sensitivity, not a third primary inverse."
+S4_clr,ALL,A,NOT_RUN_UNDERDEFINED,,,,,,,,CLR contrast was not defined in the frozen documents.
+S8_meta_without_OV,ALL_EXCEPT_OV,A,STORED_META,0.024809928496637296,0.0245705811539844,-0.0002393473426528965,,,0,,"OV is one cohort in the cross-cancer average, not a technical replicate."
+S4_clr,ALL,B,NOT_RUN_UNDERDEFINED,,,,,,,,CLR contrast was not defined in the frozen documents.
+S8_meta_without_OV,ALL_EXCEPT_OV,B,STORED_META,0.023963854470038938,0.023734355858990426,-0.000229498611048512,,,0,,"OV is one cohort in the cross-cancer average, not a technical replicate."

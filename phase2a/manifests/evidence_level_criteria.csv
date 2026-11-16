@@ -1,0 +1,5 @@
+level,definition,assigned_events
+LEVEL_0,"Transcript annotation, a missing translation, an NMD biotype, or an identical pair of translations.",4861
+LEVEL_1,"Two protein-coding GENCODE v34 translations differ, and no supported functional-region difference is called.",14811
+LEVEL_2,"A Level 1 sequence difference plus a supported Pfam, signal-peptide, or transmembrane difference on version-matched coordinates.",9050
+LEVEL_3,An isoform-specific peptide or other protein identification distinguishes the isoform. Gene-level abundance does not qualify.,0

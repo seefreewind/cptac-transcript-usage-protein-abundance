@@ -1,0 +1,11 @@
+cancer,triple_cases,wes_purity_numeric,estimate_score_numeric,cnv_header_overlap,batch_or_plex_columns
+BRCA,121,109,121,112,
+CCRCC,103,103,103,103,
+COAD,96,95,96,95,
+GBM,99,98,99,99,
+HNSCC,108,107,108,108,
+LSCC,108,107,108,108,
+LUAD,110,108,110,109,
+OV,82,78,82,78,
+PDAC,105,105,105,105,
+UCEC,95,86,95,95,

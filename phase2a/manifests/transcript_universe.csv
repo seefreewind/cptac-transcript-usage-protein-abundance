@@ -1,0 +1,14 @@
+metric,value,expected,match
+matrix_rows,108777,108777,1
+matrix_genes,60669,60669,1
+genes_one_row,42424,42424,1
+genes_multi_row,18245,18245,1
+unmapped_ids,0,0,1
+duplicate_ids,0,0,1
+mane,14620,14620,1
+appris,2819,2819,1
+unassigned_tagged,1001,1001,1
+principal,17439,17439,1
+principal_absent,37,37,1
+candidate,10795,10795,1
+frozen_principal_table,0,0,1

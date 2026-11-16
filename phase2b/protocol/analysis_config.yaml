@@ -1,0 +1,19 @@
+seed: 20261114
+bootstrap_draws: 1000
+practical_delta: 0.005
+vif_threshold: 10.0
+missing_covariate_fraction: 0.05
+min_class_genes: 500
+min_window_genes: 300
+min_stratum_genes: 30
+length_smd_limit: 1.0
+reference_cancer: BRCA
+influence_threshold_multiplier: 2.0
+pfam_analysis_id: 9930
+expected_counts:
+  candidate_genes: 10795
+  measured_protein_coding_transcripts: 39490
+  genes_with_uniprot: 10742
+  genes_with_sequence_difference: 9608
+  genes_with_structural_difference: 4829
+  genes_with_principal_pfam: 10228

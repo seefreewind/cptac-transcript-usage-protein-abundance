@@ -1,0 +1,23 @@
+domain,cancer,item,status,value,detail
+decision,all,phase0_6_decision,PARTIAL,PARTIAL,Gene-level RNA-protein model is feasible. Primary usage representation is the GENCODE v34 principal proportion. The isoform inverse remains the literal pair X=2^Y and X=2^Y-1.
+decision,all,phase1,not_started,not_started,Phase 1 starts only if the project owner authorizes it.
+matrices,all,required_matrices,pass,70/70,Acquisition manifest marks all 70 files validated. Phase 0.5 files were not edited in this phase.
+matrices,all,nul_tail_repair,disclosed,3,BRCA isoform (16671 NUL bytes) UCEC gene RNA (317) and PDAC CNV (40364) have trailing NUL spans in phase0_5. S3 ranges at those offsets are text. Repaired copies are under phase0_6/repaired and match the first completed-download SHA256. The isoform audit reads the repaired BRCA isoform and UCEC gene-RNA files.
+matrices,BRCA,isoform_rows_in_audit,pass,108777,Repaired file. Phase 0.5 missingness counted 108733 features on the NUL-tailed copy.
+transform,all,unique_inverse,unresolved,2,Portal unit is Expression (log2 transformed FPKM). A different TPM object is named log2(x+1). Stored values rule out unclipped log2(FPKM). Floor versus pseudocount is unwritten.
+transform,all,literal_A,retained,2^Y,Stored 0 becomes 1. Gene sum is defined for every gene-sample.
+transform,all,literal_B,retained,2^Y-1,Stored 0 stays 0. Same function as Phase 0.5 Candidate B.
+transform,all,phase0_5_candidate_C,sensitivity,zero_stays_zero_positive_becomes_2^Y,Clipped reading from Phase 0.5. Not literal A and not a third primary.
+usage,all,primary_representation,defined,principal_proportion,MANE Select if unique else unique APPRIS principal-1. 1001 genes have no unique principal. 37 principal transcripts are absent from the isoform matrix. 10795 genes have a principal row and at least two isoform rows.
+usage,all,abs_delta_P_gt_0.05,material,0.614-0.639,Share of principal gene-samples with G_B>0 whose literal A and literal B proportions differ by more than 0.05. Mean absolute difference 0.132-0.146.
+usage,all,dominant_identity_mismatches,pass,0,Both inverses are strictly increasing so the unique maximum of Y is shared.
+reconstruction,all,spearman_log2G_vs_RSEM,pass,0.898-0.931,Rank agreement across ten cancers. Residual location shows a scale offset. The correlation is not a selection rule for the inverse.
+reconstruction,all,shared_zero,pass,0.9942-0.9991,Fraction of all-zero isoform gene-samples whose RSEM value is also 0.
+model,all,M0_M1,frozen,partial_R2_pair,M0 is protein ~ log2(G) + WES_purity + CNV. M1 adds P. Same cases inside one inverse. Primary estimand is the pair of partial R2 values.
+model,all,complete_case_gate,frozen,71,Applied in every cancer including OV. Published OV primary-eligible genes at this gate: 4250. Median eligible N 78. Mean eligible N 61.4.
+model,all,pooling,excluded,cancer_specific,Random-effects summary across cancers. The 1027 cases are not one regression.
+phosphosite,all,validation,pass,10/10,The count of six was an intermediate Phase 0.5 state. Current files match the acquisition manifest in size and SHA256 and contain zero NUL bytes. Phosphosite is supplementary.
+phosphosite,all,missingness,supplementary,0.514-0.665,NA fraction on triple columns. Exact zeros are absent. Nine cancers contain the token -Inf. LUAD does not.
+sepep,all,isoform_specific_peptide,unavailable,0,Six open files are patient-level quantification groups named GENE_SEPEP.index_CODE. No peptide sequence and no protein accession. CCRCC COAD GBM and HNSCC returned HTTP 403.
+cohort,all,triple_match,pass,1027,BRCA 121 CCRCC 103 COAD 96 GBM 99 HNSCC 108 LSCC 108 LUAD 110 OV 82 PDAC 105 UCEC 95. Case-level match.
+cohort,COAD,rna_intersection_in_audit,disclosed,106,Reconstruction audit uses the RNA intersection. Ten COAD cases have RNA and no protein and stay out of the protein model.

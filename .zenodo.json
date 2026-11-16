@@ -1,0 +1,28 @@
+{
+  "title": "Cancer-Specific Heterogeneity in the Incremental Explanatory Value of Transcript Usage for Protein Abundance",
+  "description": "Frozen analysis code, derived gene-level and cancer-level results, source manifests, and figure exports for 1,027 case-level matched tumors across ten CPTAC cohorts. Two co-primary inverse transformations are preserved.",
+  "creators": [
+    {
+      "name": "Cancer-Specific Heterogeneity in the Incremental Explanatory Value of Transcript Usage for Protein Abundance"
+    }
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "version": "v1.0.0",
+  "keywords": [
+    "CPTAC",
+    "proteogenomics",
+    "transcript usage",
+    "protein abundance",
+    "partial R squared",
+    "meta-analysis"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/seefreewind/cptac-transcript-usage-protein-abundance",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

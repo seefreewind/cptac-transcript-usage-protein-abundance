@@ -1,0 +1,13 @@
+analysis,transformation,stratum,n_s2,n_s1,estimate,detail
+length_quintile,A,1,585,788,0.00045675258632010135,
+length_quintile,A,2,624,748,0.005981838981436598,
+length_quintile,A,3,674,713,0.005391957871615897,
+length_quintile,A,4,673,704,0.004978904270187462,
+length_quintile,A,5,783,595,0.00912776032626254,
+length_quintile,B,1,582,781,0.0013264826027357332,
+length_quintile,B,2,626,753,0.004928667070819535,
+length_quintile,B,3,667,705,0.00575350519507975,
+length_quintile,B,4,670,701,0.004410813032941302,
+length_quintile,B,5,782,592,0.007274468259839566,
+standardized_difference,annotation,,3339,3548,0.16470170681862603,length_smd
+standardized_difference,annotation,,2267,2460,0.45372967496482863,pfam_smd

@@ -1,0 +1,6 @@
+python 3.11.15
+implementation CPython
+platform macOS-26.4-arm64-arm-64bit
+numpy imported through phase1a/code/common.py for the frozen principal parser
+sequence comparison phase2a_exact_v1
+run_finished 2026-11-14T12:04:45Z

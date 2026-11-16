@@ -1,0 +1,17 @@
+output,source,scope
+S1_complete_cancer_gene_fit_summaries.csv,phase1a/results/cancer_level_summary.csv,"Frozen rows and fields, original order"
+S2_leave_one_cancer_out.csv,phase1a/results/leave_one_cancer_out.csv,"Frozen rows and fields, original order"
+S3_full_prespecified_sensitivities.csv,phase1a/results/sensitivity_summary.csv,"Frozen rows and fields, original order"
+S4_gene_eligibility.csv,phase1a/results/eligibility_by_cancer_transform.csv,"Frozen rows and fields, original order"
+S4_fit_exclusions.csv,phase1a/results/exclusion_reasons.csv,"Frozen rows and fields, original order"
+S5_transcript_annotation_coverage.csv,phase2a/results/phase1a_annotation_coverage.csv,"Frozen rows and fields, original order"
+S5_transcript_structure_coverage.csv,phase2a/results/transcript_structure_coverage.csv,"Frozen rows and fields, original order"
+S6_structural_annotation_coverage.csv,phase2a/results/functional_annotation_coverage.csv,"Frozen rows and fields, original order"
+S6_structural_categories.csv,phase2b/results/structural_category_counts.csv,"Frozen rows and fields, original order"
+S7_structural_literal_A.csv,phase2b/results/primary_S2_vs_S1_literal_A.csv,"Frozen rows and fields, original order"
+S7_structural_literal_B.csv,phase2b/results/primary_S2_vs_S1_literal_B.csv,"Frozen rows and fields, original order"
+S8_null_expected_and_excess.csv,phase1a/results/cancer_level_summary.csv,"Frozen rows and fields, original order"
+S1_Q_and_heterogeneity.csv,phase1a/results/random_effects_summary.csv,"Frozen rows and fields, original order"
+S3_transformation_comparison.csv,phase1a/results/transformation_paired_comparison.csv,"Frozen rows and fields, original order"
+S1_full_gene_fits_literal_A.tsv.gz,phase1a/results/primary_literal_A_gene_fits.tsv.gz,Byte-identical complete fit archive
+S1_full_gene_fits_literal_B.tsv.gz,phase1a/results/primary_literal_B_gene_fits.tsv.gz,Byte-identical complete fit archive

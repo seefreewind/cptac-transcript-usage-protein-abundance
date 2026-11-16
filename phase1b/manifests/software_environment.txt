@@ -1,0 +1,8 @@
+start_utc 2026-11-14T11:17:53Z
+system macOS-26.4-arm64-arm-64bit
+python 3.11.15 (main, Mar  3 2026, 00:52:57) [Clang 21.0.0 (clang-2100.0.123.102)]
+numpy 2.4.6
+scipy 1.17.1
+threads OMP=1 OPENBLAS=1 MKL=1 VECLIB=1
+seed 20261114
+phase1a_models_refit no

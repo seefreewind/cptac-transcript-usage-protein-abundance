@@ -1,0 +1,7 @@
+Analysis,Transformation,Pooled mean,95% CI,95% PI,I²
+all_ten,Literal A,0.0248,0.0222–0.0274,0.0164–0.0332,91.8%
+exclude_OV,Literal A,0.0246,0.0217–0.0274,0.0156–0.0335,92.5%
+paired_support,Literal A,0.0249,0.0223–0.0275,0.0165–0.0333,91.7%
+all_ten,Literal B,0.0240,0.0216–0.0263,0.0164–0.0315,91.0%
+exclude_OV,Literal B,0.0237,0.0211–0.0263,0.0157–0.0318,91.7%
+paired_support,Literal B,0.0240,0.0216–0.0263,0.0164–0.0315,91.0%

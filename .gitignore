@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+._*
+.venv/
+phase0/raw/
+phase0_5/acquisition/
+phase0_6/repaired/
+*.partial

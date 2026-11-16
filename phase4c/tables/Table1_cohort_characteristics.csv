@@ -1,0 +1,11 @@
+Cancer,Case-level matched tumors,CNV header coverage,Protein matrix cell missingness
+BRCA,121,112/121,17.74%
+CCRCC,103,103/103,19.75%
+COAD,96,95/96,23.39%
+GBM,99,99/99,14.66%
+HNSCC,108,108/108,18.07%
+LSCC,108,108/108,15.13%
+LUAD,110,109/110,16.91%
+OV,82,78/82,20.84%
+PDAC,105,105/105,21.94%
+UCEC,95,95/95,17.58%
